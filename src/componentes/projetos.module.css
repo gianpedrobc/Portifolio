@@ -1,0 +1,70 @@
+.projetos {
+  background: linear-gradient(145deg, #121214, #1f1f22);
+  color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+    font-family: 'Arial', sans-serif;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+.titulo {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #f07c25;
+}
+
+.paragrafo {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #5f4c6f;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  width: 100%;
+}
+
+.conter {
+  background: linear-gradient(145deg, #1f1f22, #121214);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.conter:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.conter img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  opacity: 0.95;
+  transition: opacity 0.3s ease;
+}
+
+.conter img:hover {
+  opacity: 1;
+}
+
+.conter h2 {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  color: #f07c25;
+}
+
+.conter p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #5f4c6f;
+}
+

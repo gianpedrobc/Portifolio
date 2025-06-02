@@ -1,0 +1,49 @@
+.contatos{
+    background-color: black;
+    min-width: 100vh;
+    min-height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.titulo {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f07c25;
+}
+.paragrafo {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #5f4c6f;
+}
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.lista li {
+  font-size: 1.2rem;
+}
+
+.lista li a {
+  color: #f07c25;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
+
+.lista li a:hover {
+  color: #ffffff;
+}
+
+.lista li i {
+  font-size: 1.9rem;
+}

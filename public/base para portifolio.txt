@@ -1,0 +1,18 @@
+| Nome da Cor          | Hexadecimal | Uso sugerido                       |
+| -------------------- | ----------- | ---------------------------------- |
+| **Preto Espacial**   | `#0d0c0f`   | Fundo complementar, rodapé, header |
+| **Laranja Nebulosa** | `#f07c25`   | Botões, destaques, links           |
+| **Âmbar Brilhante**  | `#ffc66e`   | Hover de botões, ícones, bordas    |
+| **Cinza Estelar**    | `#bbbcc0`   | Texto secundário, ícones           |
+| **Branco Estelar**   | `#ffffff`   | Títulos, textos principais         |
+| **Azul Noturno**     | `#1e1f30`   | Plano de fundo de seções           |
+| **Roxo Nebuloso**    | `#5f4c6f`   | Detalhes criativos, hover de links |
+
+https://www.behance.net/gallery/156427099/One-Page-portifolio?tracking_source=search_projects|front+end+portifolio+&l=13https://www.freepik.com/free-ai-image/galaxy-wallpaper-warm-colors_280117055.htm
+
+font awesomw 
+ package.json
+npm install @fortawesome/fontawesome-free
+
+import '@fortawesome/fontawesome-free/css/all.min.css';
+src/index.js
