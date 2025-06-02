@@ -12,3 +12,13 @@
   margin: 0;
   font-family: 'Arial', sans-serif;
 }
+
+@media (max-width: 580px) {
+  .footer {
+    padding: 10px;
+  }
+
+  .paragrafo {
+    font-size: 14px;
+  }
+}

@@ -8,12 +8,16 @@
     padding: 0 20px;
 }
 
-.App-logo {
-    max-width: 20px;
-    max-width: 20px;
+.logo {
+    max-width: 400px;
+    max-width: 400px;
     border-radius: 50%;
-    
+    color:#f07c25;    
 
+}
+.logo:hover{
+    color: #ffffff;
+    font-size: larger;
 }
 
 .menu {
@@ -41,4 +45,33 @@
 }
 .button button:hover {
     background-color: #ffffff;
+}
+
+
+
+@media (max-width: 580px) {
+    .header {
+        height: 45px; /* Diminui ainda mais a altura do cabeçalho */
+        padding: 0 5px; /* Reduz mais o padding */
+    }
+
+    .logo {
+        max-width: 120px; /* A logo fica ainda menor */
+        font-size: 14px; /* Font menor para a logo */
+    }
+
+    .menu {
+        flex-direction: column; /* Muda o menu para uma coluna */
+        gap: 10px; /* Menos espaço entre os itens do menu */
+        text-align: center; /* Alinha o texto ao centro */
+    }
+
+    .menu a {
+        font-size: 12px; /* Tamanho de fonte ainda menor para os links */
+    }
+
+    .button button {
+        width: 80px; /* Botão menor */
+        height: 20px; /* Botão ainda mais baixo */
+    }
 }

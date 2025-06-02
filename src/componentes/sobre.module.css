@@ -1,50 +1,81 @@
-.sobre{
+.sobre {
     background-color: #1e1f30;
     padding: 20px;
-    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    min-width: 100vh;
+    min-width: 100vw;
     min-height: 100vh;
     display: flex;
+    justify-content: center; 
+    align-items: center;     
 }
-.divisor{
+
+.divisor {
     display: flex;
-    flex-direction: column;
-    text-align: start;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 50%;
-    height: 70%;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center; 
+    width: 80%;  
+    height: auto; 
     padding: 15px;
     background-color: rgba(77, 78, 100, 0.384);
     border-radius: 8px;
     box-shadow: 0 7px 9px rgba(0, 0, 0, 0.671);
 }
-.titulo{
+
+.titulo {
     color: #f07c25;
     font-size: 2rem;
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
 }
 
-.paragrafo{
+.paragrafo {
     color: #bbbcc0;
     font-size: 1.2rem;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
 }
-.paragrafo span{
+
+.paragrafo span {
     color: #f07c25;
     font-weight: bold;
 }
 
-.imagem{
+.imagem {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    width: 50%;
-    height: 70%;
-    
+    width: 40%;  
+    height: auto; 
+    margin-top: 0; 
+}
+
+@media (max-width: 580px) {
+    .sobre {
+        padding: 10px;
+    }
+
+    .divisor {
+        width: 90%;  
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .titulo {
+        font-size: 1.6rem;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .paragrafo {
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .imagem {
+        width: 70%; 
+        height: auto;
+        margin-top: 15px;
+    }
 }

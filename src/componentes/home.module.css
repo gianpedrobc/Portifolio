@@ -42,3 +42,26 @@
     color: #0d0c0f	;
     transition: 0.3s;
 }
+@media (max-width: 580px) {
+    .home {
+        padding: 10px;  /* Adiciona um pouco de padding para evitar que os elementos fiquem colados às bordas */
+    }
+
+    .titulo {
+        font-size: 1.8rem;  /* Diminui o tamanho do título */
+        margin-bottom: 15px;  /* Ajusta a margem inferior */
+        text-align: center;  /* Centraliza o texto */
+    }
+
+    .complemento {
+        font-size: 1rem;  /* Diminui o tamanho da fonte do complemento */
+        margin-bottom: 15px;  /* Ajusta a margem inferior */
+        text-align: center;  /* Centraliza o texto */
+    }
+
+    .button {
+        width: 100%;  /* Faz o botão ocupar toda a largura disponível */
+        padding: 12px 0;  /* Ajusta o padding para um tamanho confortável */
+        font-size: 1.1rem;  /* Aumenta um pouco o tamanho da fonte do botão */
+    }
+}

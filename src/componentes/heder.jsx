@@ -1,10 +1,12 @@
 import Style from './heder.module.css';
-//import imagem from '../imagens/logo-foto.jpg';
 
 export default function Header() {
     return (
         <header className={Style.heder}>
-            
+            <div className={Style.logo}>
+                <i className="fa-brands fa-pied-piper-alt"></i>
+             </div>
+                
             <div className={Style.menu}>
                 <a href='#homer'><p>Home</p></a>
                 <a href='#sobre'>Sobre</a>

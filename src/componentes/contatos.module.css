@@ -47,3 +47,33 @@
 .lista li i {
   font-size: 1.9rem;
 }
+
+@media (max-width: 580px) {
+    .sobre {
+        padding: 10px;
+    }
+
+    .divisor {
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-size: 1.6rem;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .paragrafo {
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .imagem {
+        width: 80%;
+        height: auto;
+        margin-top: 15px;
+    }
+}
