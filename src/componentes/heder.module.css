@@ -62,14 +62,9 @@
     }
 
     .menu {
-        flex-direction: column; 
-        gap: 10px; 
-        text-align: center; 
+        display: none;
     }
 
-    .menu a {
-        font-size: 12px; 
-    }
 
     .button button {
         width: 80px;
