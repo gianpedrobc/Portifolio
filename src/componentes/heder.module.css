@@ -50,28 +50,29 @@
 
 
 @media (max-width: 580px) {
-    .header {
-        height: 45px; /* Diminui ainda mais a altura do cabeçalho */
-        padding: 0 5px; /* Reduz mais o padding */
+    .heder {
+        height: 45px; 
+        padding: 0 5px;
+        width: 100%;
     }
 
     .logo {
-        max-width: 120px; /* A logo fica ainda menor */
-        font-size: 14px; /* Font menor para a logo */
+        max-width: 120px; 
+        font-size: 14px; 
     }
 
     .menu {
-        flex-direction: column; /* Muda o menu para uma coluna */
-        gap: 10px; /* Menos espaço entre os itens do menu */
-        text-align: center; /* Alinha o texto ao centro */
+        flex-direction: column; 
+        gap: 10px; 
+        text-align: center; 
     }
 
     .menu a {
-        font-size: 12px; /* Tamanho de fonte ainda menor para os links */
+        font-size: 12px; 
     }
 
     .button button {
-        width: 80px; /* Botão menor */
-        height: 20px; /* Botão ainda mais baixo */
+        width: 80px;
+        height: 20px; 
     }
 }

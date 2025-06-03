@@ -44,24 +44,25 @@
 }
 @media (max-width: 580px) {
     .home {
-        padding: 10px;  /* Adiciona um pouco de padding para evitar que os elementos fiquem colados às bordas */
+        padding: 10px; 
+        width: 100%;
     }
 
     .titulo {
-        font-size: 1.8rem;  /* Diminui o tamanho do título */
-        margin-bottom: 15px;  /* Ajusta a margem inferior */
-        text-align: center;  /* Centraliza o texto */
+        font-size: 1.8rem;  
+        margin-bottom: 15px;  
+        text-align: center;  
     }
 
     .complemento {
-        font-size: 1rem;  /* Diminui o tamanho da fonte do complemento */
-        margin-bottom: 15px;  /* Ajusta a margem inferior */
-        text-align: center;  /* Centraliza o texto */
+        font-size: 1rem;  
+        margin-bottom: 15px;  
+        text-align: center; 
     }
 
     .button {
-        width: 100%;  /* Faz o botão ocupar toda a largura disponível */
-        padding: 12px 0;  /* Ajusta o padding para um tamanho confortável */
-        font-size: 1.1rem;  /* Aumenta um pouco o tamanho da fonte do botão */
+        width: 100%; 
+        padding: 12px 0;  
+        font-size: 1.1re;  
     }
 }
